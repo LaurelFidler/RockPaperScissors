@@ -1,0 +1,98 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-color: gray;
+    border-radius: 40px;
+    border-style: solid;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    background-color: white;
+    border-color: white;
+    border-radius: 40px;
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+    color: white;
+
+}
+
+#agate {
+    background-image: url(agate.jpg);
+    background-size: cover;
+}
+
+#onyx {
+    background-image: url(onyx.jpg);
+    background-size: cover;
+}
+
+#jasper {
+    background-image: url(jasper.png);
+    background-size: cover;
+}
+
+.resultText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: white;
+    min-height: 150px;
+
+}
+
+.results { 
+    margin: 20px;
+}
+
+.scoreboardPlayer {
+    margin-bottom: 10px;
+}
+
+#endGame {
+    margin: 20px;
+}
+
+.gameOver {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: white;
+    min-height: 110px;
+    
+}
+
+
+
+
+
+
+.reset {
+    visibility: hidden;
+    background-color: transparent;
+    border-color: gray;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
